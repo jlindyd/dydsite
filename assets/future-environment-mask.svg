@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1125" viewBox="0 0 2000 1125">
+<defs><filter id="soft"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<g fill="white" filter="url(#soft)">
+<!-- The waterfall, its basin, and the channel beneath the architecture. -->
+<path d="M1406 683 L1436 704 L1474 740 L1476 855 L1507 881 L1561 891 L1558 916 L1489 920 L1440 900 L1396 881 L1400 758 Z"/>
+<path d="M1212 910 L1259 924 L1302 918 L1324 934 L1300 963 L1320 990 L1353 1005 L1343 1040 L1377 1073 L1372 1125 L1307 1125 L1284 1084 L1279 1042 L1253 1016 L1259 981 L1234 959 Z"/>
+<!-- Small cloud and sea windows; borders, plants and mountains stay still. -->
+<path d="M1321 237 Q1358 207 1401 235 L1404 313 L1319 313 Z"/>
+<path d="M1803 165 L1882 154 L1887 199 L1810 212 Z"/>
+<path d="M1846 446 Q1892 420 1940 449 L1940 533 L1846 527 Z"/>
+<path d="M1880 583 L1941 575 L1944 647 L1912 639 L1894 606 Z"/>
+<path d="M1754 819 Q1790 786 1831 815 L1835 884 L1754 884 Z"/>
+<path d="M1784 926 L1835 917 L1835 980 L1788 969 Z"/>
+</g></svg>

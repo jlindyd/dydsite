@@ -1,0 +1,30 @@
+/* DYD theme: cream paper, ink, one terracotta accent. Loaded last; the hero defines the system. */
+:root{--paper:#f7f4ed;--paper-deep:#efe9dc;--ink:#30352d;--ink-soft:#5d6753;--rule:#cfc7b3;--clay:#b83d27;--clay-deep:#9a3120;--clay-soft:#e7b29d;--mustard:#e0b847;--sage:#a9bb9e;--night:#2c3329;
+--grain:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%238a7c61' opacity='.09' filter='url(%23n)' d='M0 0h180v180H0z'/%3E%3C/svg%3E");
+--sc-canvas:var(--paper);--sc-ink:var(--ink);--sc-ink-soft:var(--ink-soft);--sc-accent:var(--clay)}
+body{background:var(--paper);color:var(--ink)}
+.site-header,.site-header nav{background:var(--paper)}.nav-cta{background:var(--ink);color:var(--paper)}.red-dot{background:var(--clay)}
+.v-intro,.v-showcase,.v-services,.v-experience{background-color:var(--paper);background-image:var(--grain);color:var(--ink)}
+.v-intro h2 span,.v-services h2 span,.v-experience h2 span,.v-showcase h2 span{color:var(--clay)}
+.v-eyebrow{color:var(--ink-soft)}
+.v-link{color:var(--ink);border-color:var(--ink)}
+.v-button{background:var(--clay);color:var(--paper)}
+.v-capability-index a,.v-service-list a,.v-service-list{border-color:var(--rule)}
+.v-service-list a p,.v-intro p,.v-services p,.v-experience p{color:var(--ink-soft)}
+.experience-marker{color:var(--clay)}
+.ai-sculpture{background:var(--mustard);color:var(--ink)}
+.v-intelligence,.v-intelligence-hero{background:var(--night);color:var(--paper)}
+.v-intelligence h2 span,.v-intelligence-hero h1 span{color:var(--clay-soft)}.v-intelligence-heading>p{color:#d4d6c6}
+.v-product-stage{background:#d9cdb4}.agent-window{box-shadow:0 20px 45px #1c20154d}
+.v-intelligence .v-button,.v-intelligence-hero .v-button{background:var(--mustard);color:var(--ink)}
+.v-close{background:var(--clay);color:var(--paper)}.v-close h2 span{color:#f6d3c2}.v-round-link{border-color:#e9a995}.v-round-link span{background:var(--paper);color:var(--clay)}
+@media(hover:hover)and(pointer:fine){.v-button:hover{background:var(--clay-deep);color:var(--paper)}.v-intelligence .v-button:hover,.v-intelligence-hero .v-button:hover{background:#ecc765;color:var(--ink)}.v-link:hover,.v-capability-index a:hover,.v-service-list a:hover{color:var(--clay)}}
+.v-intelligence .v-eyebrow,.v-intelligence-hero .v-eyebrow,.v-close .v-eyebrow{color:inherit;opacity:.85}
+footer,.channels-section,.capability-section,.platform-steps{background:var(--night)}
+
+/* Keep navigation available across the site. */
+.site-header{position:sticky;top:0;z-index:100;box-shadow:0 1px 0 #30352d18}html{scroll-padding-top:110px}@media(max-width:849px){html{scroll-padding-top:95px}.site-header.menu-open nav{max-height:calc(100dvh - 85px);overflow-y:auto;overscroll-behavior:contain}}
+
+/* The story fills the viewport below the persistent navigation. */
+:root{--site-header-height:100px;--story-viewport:calc(100svh - var(--site-header-height))}.story-stage{height:var(--story-viewport)}.is-live .story-stage{top:var(--site-header-height)}.story-track.is-live{height:calc(var(--story-viewport)*4.6)}@media(max-width:849px){:root{--site-header-height:85px}.story-track.is-live{height:calc(var(--story-viewport)*4.2)}.story-art{height:calc(var(--story-viewport)*.55);bottom:88px}.story-copy,.story-final{top:5%}.story-copy h1{font-size:clamp(36px,9.5vw,60px)}.story-final h2{font-size:clamp(36px,9.5vw,60px)}.story-copy p,.story-final p{margin-top:12px}.story-kicker{margin-bottom:16px}.story-final .story-cta{margin-top:10px}}@media (max-width:849px) and (max-height:740px){.story-art{height:calc(var(--story-viewport)*.48)}.story-copy,.story-final{top:20px}.story-copy h1,.story-final h2{font-size:32px}.story-kicker{margin-bottom:12px}.story-copy p,.story-final p{font-size:11px}}@media(prefers-reduced-motion:reduce){.story-track.is-live{height:var(--story-viewport)}.story-track.is-live .story-stage{top:0}}
+
