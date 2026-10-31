@@ -242,5 +242,145 @@
       "height": 878,
       "source": "Motor Perks home page"
     }
+  ],
+  "proofpoint": [
+    {
+      "src": "/assets/work/proofpoint-1.webp",
+      "width": 294,
+      "height": 168,
+      "sourcePage": 0
+    },
+    {
+      "src": "/assets/work/proofpoint-2.webp",
+      "width": 294,
+      "height": 168,
+      "sourcePage": 0
+    },
+    {
+      "src": "/assets/work/proofpoint-3.webp",
+      "width": 294,
+      "height": 168,
+      "sourcePage": 0
+    }
+  ],
+  "hpeEvents": [
+    {
+      "src": "/assets/work/hpe-event-1.webp",
+      "width": 1600,
+      "height": 900,
+      "sourcePage": 11
+    },
+    {
+      "src": "/assets/work/hpe-event-2.webp",
+      "width": 1600,
+      "height": 900,
+      "sourcePage": 12
+    }
+  ],
+  "pega": [
+    {
+      "src": "/assets/work/pega-1.webp",
+      "width": 546,
+      "height": 307,
+      "sourcePage": 8
+    },
+    {
+      "src": "/assets/work/pega-2.webp",
+      "width": 546,
+      "height": 307,
+      "sourcePage": 8
+    },
+    {
+      "src": "/assets/work/pega-3.webp",
+      "width": 546,
+      "height": 307,
+      "sourcePage": 8
+    },
+    {
+      "src": "/assets/work/pega-4.webp",
+      "width": 546,
+      "height": 307,
+      "sourcePage": 8
+    }
+  ],
+  "pivotal": [
+    {
+      "src": "/assets/work/pivotal-1.webp",
+      "width": 374,
+      "height": 210,
+      "sourcePage": 8
+    },
+    {
+      "src": "/assets/work/pivotal-2.webp",
+      "width": 374,
+      "height": 210,
+      "sourcePage": 8
+    },
+    {
+      "src": "/assets/work/pivotal-3.webp",
+      "width": 374,
+      "height": 210,
+      "sourcePage": 8
+    }
+  ],
+  "vmware": [
+    {
+      "src": "/assets/work/vmware-1.webp",
+      "width": 416,
+      "height": 312,
+      "sourcePage": 6
+    },
+    {
+      "src": "/assets/work/vmware-2.webp",
+      "width": 416,
+      "height": 312,
+      "sourcePage": 6
+    },
+    {
+      "src": "/assets/work/vmware-3.webp",
+      "width": 416,
+      "height": 312,
+      "sourcePage": 6
+    }
+  ],
+  "chevron": [
+    {
+      "src": "/assets/work/chevron-1.webp",
+      "width": 492,
+      "height": 369,
+      "sourcePage": 7
+    },
+    {
+      "src": "/assets/work/chevron-2.webp",
+      "width": 489,
+      "height": 369,
+      "sourcePage": 7
+    },
+    {
+      "src": "/assets/work/chevron-3.webp",
+      "width": 492,
+      "height": 368,
+      "sourcePage": 7
+    }
+  ],
+  "keysight": [
+    {
+      "src": "/assets/work/keysight-1.webp",
+      "width": 662,
+      "height": 352,
+      "sourcePage": 7
+    },
+    {
+      "src": "/assets/work/keysight-2.webp",
+      "width": 658,
+      "height": 352,
+      "sourcePage": 7
+    },
+    {
+      "src": "/assets/work/keysight-3.webp",
+      "width": 655,
+      "height": 352,
+      "sourcePage": 7
+    }
   ]
 }

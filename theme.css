@@ -1,3 +1,4 @@
+@import url("/contact-agent.css");
 /* DYD theme: cream paper, ink, one terracotta accent. Loaded last; the hero defines the system. */
 :root{--paper:#f7f4ed;--paper-deep:#efe9dc;--ink:#30352d;--ink-soft:#5d6753;--rule:#cfc7b3;--clay:#b83d27;--clay-deep:#9a3120;--clay-soft:#e7b29d;--mustard:#e0b847;--sage:#a9bb9e;--night:#2c3329;
 --grain:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%238a7c61' opacity='.09' filter='url(%23n)' d='M0 0h180v180H0z'/%3E%3C/svg%3E");
