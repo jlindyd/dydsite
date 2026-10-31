@@ -1,0 +1,182 @@
+{
+  "hp": [
+    {
+      "src": "/assets/work/hp-1.webp",
+      "width": 352,
+      "height": 198,
+      "sourcePage": 5
+    },
+    {
+      "src": "/assets/work/hp-2.webp",
+      "width": 352,
+      "height": 198,
+      "sourcePage": 5
+    },
+    {
+      "src": "/assets/work/hp-3.webp",
+      "width": 352,
+      "height": 198,
+      "sourcePage": 5
+    }
+  ],
+  "hpe": [
+    {
+      "src": "/assets/work/hpe-1.webp",
+      "width": 374,
+      "height": 210,
+      "sourcePage": 5
+    },
+    {
+      "src": "/assets/work/hpe-2.webp",
+      "width": 374,
+      "height": 210,
+      "sourcePage": 5
+    },
+    {
+      "src": "/assets/work/hpe-3.webp",
+      "width": 374,
+      "height": 210,
+      "sourcePage": 5
+    }
+  ],
+  "cisco": [
+    {
+      "src": "/assets/work/cisco-1.webp",
+      "width": 416,
+      "height": 312,
+      "sourcePage": 6
+    },
+    {
+      "src": "/assets/work/cisco-2.webp",
+      "width": 416,
+      "height": 312,
+      "sourcePage": 6
+    },
+    {
+      "src": "/assets/work/cisco-3.webp",
+      "width": 416,
+      "height": 312,
+      "sourcePage": 6
+    }
+  ],
+  "symantec": [
+    {
+      "src": "/assets/work/symantec-1.webp",
+      "width": 416,
+      "height": 312,
+      "sourcePage": 6
+    },
+    {
+      "src": "/assets/work/symantec-2.webp",
+      "width": 416,
+      "height": 312,
+      "sourcePage": 6
+    },
+    {
+      "src": "/assets/work/symantec-3.webp",
+      "width": 416,
+      "height": 312,
+      "sourcePage": 6
+    }
+  ],
+  "stanford": [
+    {
+      "src": "/assets/work/stanford-1.webp",
+      "width": 657,
+      "height": 367,
+      "sourcePage": 7
+    },
+    {
+      "src": "/assets/work/stanford-2.webp",
+      "width": 658,
+      "height": 369,
+      "sourcePage": 7
+    },
+    {
+      "src": "/assets/work/stanford-3.webp",
+      "width": 657,
+      "height": 367,
+      "sourcePage": 7
+    }
+  ],
+  "adobe": [
+    {
+      "src": "/assets/work/adobe-1.webp",
+      "width": 574,
+      "height": 323,
+      "sourcePage": 8
+    },
+    {
+      "src": "/assets/work/adobe-2.webp",
+      "width": 960,
+      "height": 540,
+      "sourcePage": 8
+    },
+    {
+      "src": "/assets/work/adobe-3.webp",
+      "width": 430,
+      "height": 323,
+      "sourcePage": 8
+    }
+  ],
+  "eagleview": [
+    {
+      "src": "/assets/work/eagleview-1.webp",
+      "width": 706,
+      "height": 398,
+      "sourcePage": 9
+    },
+    {
+      "src": "/assets/work/eagleview-2.webp",
+      "width": 657,
+      "height": 371,
+      "sourcePage": 9
+    },
+    {
+      "src": "/assets/work/eagleview-3.webp",
+      "width": 706,
+      "height": 399,
+      "sourcePage": 9
+    }
+  ],
+  "jpmorgan": [
+    {
+      "src": "/assets/work/jpmorgan-1.webp",
+      "width": 704,
+      "height": 395,
+      "sourcePage": 9
+    },
+    {
+      "src": "/assets/work/jpmorgan-2.webp",
+      "width": 734,
+      "height": 411,
+      "sourcePage": 9
+    },
+    {
+      "src": "/assets/work/jpmorgan-3.webp",
+      "width": 699,
+      "height": 392,
+      "sourcePage": 9
+    }
+  ],
+  "events": [
+    {
+      "src": "/assets/work/event-10.webp",
+      "width": 1600,
+      "height": 900,
+      "sourcePage": 10
+    },
+    {
+      "src": "/assets/work/event-12.webp",
+      "width": 1600,
+      "height": 900,
+      "sourcePage": 12
+    },
+    {
+      "src": "/assets/work/event-14.webp",
+      "width": 1600,
+      "height": 900,
+      "sourcePage": 14
+    }
+  ]
+}
