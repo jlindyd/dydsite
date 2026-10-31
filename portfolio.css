@@ -44,3 +44,8 @@
 @media(max-width:1000px){.client-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.client-grid{grid-template-columns:1fr}.client-tile{padding:26px 22px 22px}.client-logo-box{height:76px}.client-logo{height:52px}}
 .client-logo+.kicker{display:none}
+/* Additional projects on a client page */
+.portfolio-extra{display:grid;grid-template-columns:1fr 1.3fr;gap:6%;align-items:start;padding:50px var(--gutter) 70px;border-top:1px solid var(--rule,#cfc7b3);background:var(--paper,#f7f4ed)}
+.portfolio-extra-copy h2{font-size:clamp(32px,3.6vw,52px);letter-spacing:-.05em;line-height:1.05;font-weight:500;margin:18px 0}.portfolio-extra-copy p{font-size:15px;line-height:1.7;color:var(--ink-soft,#5d6753);max-width:42ch}
+.portfolio-extra-figure{margin:0;padding:clamp(14px,2vw,28px);background:var(--paper-deep,#efe9dc);display:flex;justify-content:center}.portfolio-extra-figure img{display:block;width:auto;height:auto;max-width:100%;box-shadow:0 14px 28px #30352d26}
+@media(max-width:849px){.portfolio-extra{grid-template-columns:1fr;gap:26px;padding:40px var(--gutter) 50px}}

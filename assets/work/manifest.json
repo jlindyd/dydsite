@@ -218,5 +218,29 @@
       "height": 760,
       "source": "HP LIFE app, Google Play listing"
     }
+  ],
+  "hpAcademy": [
+    {
+      "src": "/assets/work/hp-academy-1.webp",
+      "width": 794,
+      "height": 731,
+      "source": "HP Contractual Academy home page"
+    }
+  ],
+  "hpSolutionsSource": [
+    {
+      "src": "/assets/work/hp-solutions-source-1.webp",
+      "width": 1210,
+      "height": 892,
+      "source": "HP Solutions Source home page"
+    }
+  ],
+  "motorperks": [
+    {
+      "src": "/assets/work/motorperks-1.webp",
+      "width": 1886,
+      "height": 878,
+      "source": "Motor Perks home page"
+    }
   ]
 }

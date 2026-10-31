@@ -13,5 +13,6 @@ One-colour (site ink, #30352d) versions of each client's logo for the Our Work p
 | jpmorgan.svg | J.P. Morgan | Wikimedia Commons, "JPMorgan logo.svg" |
 | stanford.svg | Stanford Health Care | stanfordhealthcare.org site header (`stanfordHealthcareLogo.svg`) |
 | eagleview.svg | EagleView | eagleview.com site header (inline SVG, dark-background version recoloured) |
+| motorperks.png | Motor Perks | motorperks.com site header image (raster; converted to an ink-tone version, colour original in `raw/motorperks-color.png`) |
 
 Not a client, so no logo: "Events & Experiences" (a service category in the current portfolio).
