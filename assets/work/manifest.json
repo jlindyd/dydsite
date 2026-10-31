@@ -198,5 +198,25 @@
       "height": 1298,
       "source": "life-global.org mobile view"
     }
+  ],
+  "hplifeApp": [
+    {
+      "src": "/assets/work/hplife-app-1.webp",
+      "width": 422,
+      "height": 765,
+      "source": "HP LIFE app, Google Play listing"
+    },
+    {
+      "src": "/assets/work/hplife-app-2.webp",
+      "width": 425,
+      "height": 763,
+      "source": "HP LIFE app, Google Play listing"
+    },
+    {
+      "src": "/assets/work/hplife-app-3.webp",
+      "width": 424,
+      "height": 760,
+      "source": "HP LIFE app, Google Play listing"
+    }
   ]
 }

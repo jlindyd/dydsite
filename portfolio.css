@@ -14,3 +14,14 @@
 .portfolio-project-phones .phone-frame{width:100%;aspect-ratio:600/1298}.portfolio-project-phones .phone-frame img{max-width:none;margin:0;height:100%}
 .portfolio-phones .phone-frame:nth-child(2){transform:none}
 @media(max-width:849px){.portfolio-project-gallery.portfolio-project-phones{grid-template-columns:1fr;justify-items:center}.portfolio-project-phones figure{width:min(100%,300px)}}
+/* App tiles and video */
+.app-tile{display:block;border-radius:22px;overflow:hidden;background:#dfe5ea;box-shadow:0 18px 30px #30352d26;aspect-ratio:422/765}.app-tile img{display:block;width:100%;height:100%;object-fit:cover;filter:none!important;max-width:none}
+.portfolio-app .portfolio-phones{align-items:flex-end;gap:clamp(10px,1.6vw,22px);padding:0 clamp(14px,2vw,28px)}.portfolio-phones .app-tile{flex:1 1 0;max-width:210px;border-radius:18px 18px 0 0;box-shadow:0 -6px 24px #30352d1f}.portfolio-phones .app-tile:nth-child(2){transform:translateY(-14px)}
+.portfolio-app-section{padding:30px var(--gutter) 40px;display:grid;grid-template-columns:1fr 1.8fr;gap:5%;align-items:start;background:var(--paper,#f7f4ed)}
+.portfolio-app-copy h2{font-size:clamp(34px,4vw,60px);letter-spacing:-.05em;line-height:1.05;font-weight:500;margin:18px 0}.portfolio-app-copy p{font-size:15px;line-height:1.7;color:var(--ink-soft,#5d6753);max-width:34ch}
+.app-tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.app-tiles figure{margin:0;padding:0;background:none}
+.video-facade,.video-frame{grid-column:1/-1;width:100%}.video-facade{display:flex;align-items:center;gap:22px;padding:22px 26px;background:var(--ink,#30352d);color:var(--paper,#f7f4ed);cursor:pointer;transition:background .15s}.video-facade:hover{background:var(--clay-deep,#9a3120)}
+.video-play{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--paper,#f7f4ed);color:var(--clay,#b83d27);font-size:18px;padding-left:4px;flex:0 0 auto}.video-label{display:flex;flex-direction:column;gap:6px}.video-label strong{font-size:18px;font-weight:500}.video-label small{font-size:11px;opacity:.8}
+.video-frame{aspect-ratio:16/9;border:0;height:auto}
+.portfolio-subhead{padding:20px var(--gutter) 0;background:var(--paper,#f7f4ed)}
+@media(max-width:849px){.portfolio-app-section{grid-template-columns:1fr;gap:26px}.app-tiles{gap:10px}.portfolio-phones .app-tile:nth-child(2){transform:none}.video-facade{padding:18px}}
