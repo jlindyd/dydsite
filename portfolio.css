@@ -25,3 +25,22 @@
 .video-frame{aspect-ratio:16/9;border:0;height:auto}
 .portfolio-subhead{padding:20px var(--gutter) 0;background:var(--paper,#f7f4ed)}
 @media(max-width:849px){.portfolio-app-section{grid-template-columns:1fr;gap:26px}.app-tiles{gap:10px}.portfolio-phones .app-tile:nth-child(2){transform:none}.video-facade{padding:18px}}
+/* Keep source images at their own size so they stay sharp: scale down to fit, never up. */
+.portfolio-slide img{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
+.portfolio-project-gallery img{width:auto;height:auto;max-width:100%}
+.portfolio-project-gallery .portfolio-event-figure img{width:100%;max-width:100%}
+.portfolio-project-gallery figure{display:flex;flex-direction:column;align-items:center}.portfolio-project-gallery figure figcaption{align-self:flex-start}
+/* Client-led Our Work */
+.client-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--rule,#cfc7b3);border-left:1px solid var(--rule,#cfc7b3)}
+.client-tile{display:flex;flex-direction:column;gap:26px;min-width:0;padding:34px 30px 26px;border-right:1px solid var(--rule,#cfc7b3);border-bottom:1px solid var(--rule,#cfc7b3);background:transparent;transition:background .18s ease-out}
+.client-tile[hidden]{display:none}
+.client-logo-box{display:flex;align-items:center;justify-content:flex-start;height:92px}.client-logo-box img{display:block;max-width:min(100%,230px);max-height:84px;width:auto;height:auto}
+.client-meta{display:flex;flex-direction:column;gap:8px;flex:1}.client-name{font-size:clamp(18px,1.6vw,22px);letter-spacing:-.02em;color:var(--ink,#30352d)}.client-tags{font-size:12px;line-height:1.5;color:var(--ink-soft,#5d6753)}
+.client-open{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--ink,#30352d);border-top:1px solid var(--rule,#cfc7b3);padding-top:16px}.client-open>span{font-size:20px;transition:transform .18s ease-out}
+.client-logo{display:block;height:64px;width:auto;max-width:min(100%,320px);margin-bottom:34px}
+.portfolio-experiences{padding:70px var(--gutter) 90px;background:var(--paper,#f7f4ed)}.portfolio-experiences-head{margin-bottom:34px}.portfolio-experiences-head h2{font-size:clamp(32px,3.8vw,56px);letter-spacing:-.05em;font-weight:500;margin-top:16px}.portfolio-grid-single{grid-template-columns:1fr}
+@media(hover:hover)and(pointer:fine){.client-tile:hover{background:var(--paper-deep,#efe9dc)}.client-tile:hover .client-open>span{transform:translate(3px,-3px)}}
+.client-tile:focus-visible{outline:2px solid var(--clay,#b83d27);outline-offset:-2px}
+@media(max-width:1000px){.client-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.client-grid{grid-template-columns:1fr}.client-tile{padding:26px 22px 22px}.client-logo-box{height:76px}.client-logo{height:52px}}
+.client-logo+.kicker{display:none}
