@@ -65,3 +65,52 @@ main h1,main h2,main h3{font-weight:500}.page-title h1,.detail-hero h1{letter-sp
 .work-featured-links{display:flex;flex-wrap:wrap;gap:6px 36px;margin-top:20px}.work-source{font-size:10px!important;margin-top:18px;color:var(--ink-soft)}
 @media(max-width:849px){.work-featured{grid-template-columns:1fr;gap:30px;padding-bottom:60px}.work-facts{grid-template-columns:1fr 1fr 1fr;gap:0 16px}}
 .work-featured-art img{object-fit:contain;background:#eee7dc}
+
+/* ===== Tidy pass: one type floor, one button size, one spacing scale ===== */
+:root{--sec-y:clamp(48px,5.6vw,76px);--btn-h:48px;--btn-font:13px;--label:11px}
+/* Labels and captions: never below 11px */
+body .kicker,body .v-eyebrow,body .story-kicker,body .fw-overline,body .fw-scene-label,body .fw-small-note,body .fw-art-note,body .demo-label,body .breadcrumb,body .breadcrumb a,body .fw-experience-foot span,body .fw-intelligence-foot span,body .agent-status,body .story-note,body .story-label{font-size:var(--label);letter-spacing:.09em;line-height:1.4}
+body .story-navigation button,body .story-navigation>a,body .agent-prompts button,body .agent-bottom,body .agent-profile,body .agent-active,body .agent-input{font-size:11px}
+body .agent-bottom,body .demo-label{font-size:10.5px}
+body .footer-bottom,body .footer-bottom span,body .footer-bottom a{font-size:12px}
+body .site-footer-grid h3{font-size:12px;letter-spacing:.09em}.site-footer-grid a{font-size:13px;line-height:1.5}.site-footer-grid p{font-size:13px;line-height:1.65}
+figcaption,.client-tags,.work-source,.portfolio-open,.portfolio-project-tags{font-size:12px}
+body .client-name{font-size:clamp(17px,1.4vw,20px)}
+/* Buttons: one height, one font size, one padding */
+body .v-button,body .dark-button,body .story-cta.is-button{min-height:var(--btn-h);padding:0 20px;font-size:var(--btn-font);gap:24px;align-items:center}
+body .nav-cta{min-height:44px;padding:0 18px;font-size:var(--btn-font);display:inline-flex;align-items:center;gap:14px}
+body .v-button>span,body .dark-button>span{font-size:18px;line-height:1}
+body .text-link,body .v-link,body .story-cta,body .fw-link,body .portfolio-open,body .video-facade{font-size:var(--btn-font)}
+body .text-link,body .v-link,body .story-cta{padding-block:12px;min-height:44px;display:inline-flex;align-items:center;justify-content:space-between;gap:24px}
+body .v-link>span,body .text-link>span,body .story-cta>span{font-size:18px;line-height:1}
+body .v-round-link{padding-block:14px;font-size:var(--btn-font)}.v-round-link span{width:48px;height:48px;font-size:22px}
+body .form button[type=submit],body .contact-layout button[type=submit]{min-height:var(--btn-h);font-size:var(--btn-font);padding:0 20px}
+body .menu-toggle{font-size:12px}
+/* Headings: tighter scale */
+body .page-title h1,body .detail-hero h1,body .portfolio-title h1,body .portfolio-project-title h1{font-size:clamp(42px,5.2vw,76px);line-height:1.04;letter-spacing:-.05em}
+body .v-close h2{font-size:clamp(44px,6vw,92px);line-height:1}
+body .about-statement h2,body .cta-banner h2,body .convergence h2{font-size:clamp(34px,4vw,58px);line-height:1.06;letter-spacing:-.045em}
+body .content-spread h2,body .capability-section h2,body .related-section h2,body .partner-section h2,body .work-section h2{font-size:clamp(30px,3.2vw,46px);line-height:1.1;letter-spacing:-.04em}
+body .page-title>p,body .detail-hero p{font-size:clamp(15px,1.15vw,17px);line-height:1.65;max-width:52ch}
+body .content-spread p,body .capability-section p,body .related-section p{font-size:15px;line-height:1.7}
+/* Spacing: one vertical rhythm for every section */
+body .page-title{padding-block:calc(var(--sec-y) + 12px) var(--sec-y)}.portfolio-title{padding-bottom:36px}.portfolio-project-title{padding-bottom:36px}
+body .detail-hero{padding-block:48px var(--sec-y)}
+body .content-spread,body .about-statement,body .cta-banner,body .capability-section,body .related-section,body .insights-empty,body .portfolio-connections,body .partner-section,body .work-section,body .experience-section{padding-block:var(--sec-y)}
+body .process-section,body .physical-section{padding-block:calc(var(--sec-y) - 12px)}
+body .contact-layout{padding-block:calc(var(--sec-y) + 8px) calc(var(--sec-y) + 16px)}
+body .v-intro,body .v-showcase,body .v-services,body .v-experience,body .v-close,body .v-cms,body .v-platform-story,body .v-intelligence{padding-block:calc(var(--sec-y) + 8px)}
+body .v-intelligence-hero{padding-top:48px}
+body .portfolio-section{padding-bottom:var(--sec-y)}.client-projects,.portfolio-extra{padding-bottom:var(--sec-y)}
+body .client-logo{margin-bottom:24px;height:56px}
+body .cta-banner{gap:5%}
+footer{padding-top:var(--sec-y)}.footer-bottom{padding-block:20px}
+@media(max-width:849px){:root{--sec-y:44px}
+ body .page-title h1,body .detail-hero h1,body .portfolio-title h1,body .portfolio-project-title h1{font-size:clamp(36px,10.5vw,52px)}
+ body .v-close h2{font-size:clamp(38px,11vw,60px)}.about-statement h2,.cta-banner h2{font-size:clamp(30px,8.4vw,42px)}
+ body .content-spread h2,body .capability-section h2,body .related-section h2{font-size:clamp(26px,7.4vw,34px)}
+ body .page-title{padding-block:40px 36px}.detail-hero{padding-block:28px 40px}
+ body .site-footer-grid a{font-size:14px;padding-block:3px}}
+body .site-header .nav-cta{padding:0 18px;min-height:44px}
+body .site-header nav>a,body .site-header nav summary{font-size:13px}
+body .client-open{display:block;font-size:20px;line-height:1;text-align:right;padding-top:14px;color:var(--ink)}
