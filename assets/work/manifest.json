@@ -178,5 +178,25 @@
       "height": 900,
       "sourcePage": 14
     }
+  ],
+  "hplife": [
+    {
+      "src": "/assets/work/hplife-1.webp",
+      "width": 600,
+      "height": 1298,
+      "source": "life-global.org mobile view"
+    },
+    {
+      "src": "/assets/work/hplife-2.webp",
+      "width": 600,
+      "height": 1298,
+      "source": "life-global.org mobile view"
+    },
+    {
+      "src": "/assets/work/hplife-3.webp",
+      "width": 600,
+      "height": 1298,
+      "source": "life-global.org mobile view"
+    }
   ]
 }
