@@ -117,3 +117,8 @@ body .client-open{display:block;font-size:20px;line-height:1;text-align:right;pa
 
 /* Story bar: full-bleed, content stays on the page gutter */
 body .story-navigation{left:0;right:0;width:100%;padding-left:var(--gutter,72px);padding-right:var(--gutter,72px);box-sizing:border-box}
+
+/* Hero: keep the type in proportion on short desktop windows */
+@media(min-width:850px){body .story-copy h1{font-size:clamp(40px,min(6.3vw,11vh),100px)}body .story-final h2{font-size:clamp(36px,min(5.6vw,9.5vh),87px)}}
+@media(min-width:850px) and (max-height:760px){body .story-copy{top:9%}body .story-copy p{margin-top:14px}body .story-copy .story-cta{margin-top:14px}body .story-final{top:10%}}
+body .story-navigation button{justify-content:space-between}
