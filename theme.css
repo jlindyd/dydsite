@@ -114,3 +114,6 @@ footer{padding-top:var(--sec-y)}.footer-bottom{padding-block:20px}
 body .site-header .nav-cta{padding:0 18px;min-height:44px}
 body .site-header nav>a,body .site-header nav summary{font-size:13px}
 body .client-open{display:block;font-size:20px;line-height:1;text-align:right;padding-top:14px;color:var(--ink)}
+
+/* Story bar: full-bleed, content stays on the page gutter */
+body .story-navigation{left:0;right:0;width:100%;padding-left:var(--gutter,72px);padding-right:var(--gutter,72px);box-sizing:border-box}
