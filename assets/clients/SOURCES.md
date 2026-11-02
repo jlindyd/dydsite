@@ -13,7 +13,7 @@ One-colour (site ink, #30352d) versions of each client's logo for the Our Work p
 | jpmorgan.svg | J.P. Morgan | Wikimedia Commons, "JPMorgan logo.svg" |
 | stanford.svg | Stanford Health Care | stanfordhealthcare.org site header (`stanfordHealthcareLogo.svg`) |
 | eagleview.svg | EagleView | eagleview.com site header (inline SVG, dark-background version recoloured) |
-| motorperks.png | Motor Perks | motorperks.com site header image (raster; converted to an ink-tone version, colour original in `raw/motorperks-color.png`) |
+| motorperks.webp | Motor Perks | motorperks.com site header image (raster; converted to an ink-tone version, colour original in `raw/motorperks-color.png`) |
 | proofpoint.svg | Proofpoint | Wikimedia Commons, "Proofpoint-vector-logo.svg" (cropped to the wordmark, recoloured) |
 | pega.svg | Pega | pega.com site header (`pega-logo.svg`), recoloured |
 | pivotal.svg | Pivotal | Wikimedia Commons, "Pivotal Software logo.svg", recoloured |
